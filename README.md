@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```bash
 python nsta_field_classifier.py
 ```
-Note: If no file is present, the utility will automatically generate a valid, sample dataset to verify pipeline execution flow mechanics.
+* Note: If no file is present, the utility will automatically generate a valid, sample dataset to verify pipeline execution flow mechanics.
 ---
 
 ### 3. Push the Updates via PyCharm Terminal
