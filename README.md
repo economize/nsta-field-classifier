@@ -21,4 +21,23 @@ This repository serves as a clean, reproducible engineering blueprint for handli
 ```bash
 python -m venv venv
 source venv/Scripts/activate  # On macOS/Linux: source venv/bin/activate
+<<<<<<< HEAD
 pip install -r requirements.txt
+=======
+pip install -r requirements.txt
+```
+### 2. Execution
+* Drop a valid database export named `nsta_field_production.csv` into the project root directory and execute the pipeline:
+```bash
+python nsta_field_classifier.py
+```
+* Note: If no file is present, the utility will automatically generate a valid, sample dataset to verify pipeline execution flow mechanics.
+---
+
+### 3. Push the Updates via PyCharm Terminal
+Once you save both files, click the **Terminal** tab at the bottom of PyCharm and run this final sequence to push the completed framework up to GitHub:
+
+```bash
+git add requirements.txt README.md
+git commit -m "Docs: Update README narrative and patch requirements manifest"
+git push origin main
